@@ -1,6 +1,8 @@
 package pokemon.model;
 
-public class electricType
+public interface electricType
 {
+	public Boolean thunder();
+	public Boolean thunderFang();
 
 }
