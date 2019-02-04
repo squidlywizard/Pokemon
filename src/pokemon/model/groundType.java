@@ -1,6 +1,8 @@
 package pokemon.model;
 
-public class groundType
+public interface groundType
 {
+	public void bulldoze();
+	public void dig();
 
 }
