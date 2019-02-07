@@ -61,7 +61,7 @@ class TestPokedexController
 		assertFalse(tested.isInt(""), "Empty text is not a number");
 		assertFalse(tested.isInt("text"), "Text is not a number");
 		assertFalse(tested.isInt("3.2"), "Doubles are not ints");
-		assertTrue(tested.isDouble("9"), "9 is an integer number");
+		assertTrue(tested.isInt("9"), "9 is an integer number");
 	}
 	
 	@Test
